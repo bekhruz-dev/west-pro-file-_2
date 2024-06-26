@@ -1,0 +1,147 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #c49331;
+  height: 703px;
+  text-align: center;
+}
+
+.button-next,
+.button-perv,
+.slider-wrapper,
+.dot {
+  display: inline-block;
+  vertical-align: middle; /* не center ) */
+}
+
+/* обрезаем то, что не входит в обертку */
+.slider-wrapper {
+  width: 1300px;
+  overflow: hidden;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px 1px rgba(161, 67, 0, 0.2);
+}
+
+.slider-line {
+  display: flex;
+  position: relative; /* чтобы двигать */
+  left: 0;
+  transition: all 0.5s easy-out;
+}
+
+.button-prev,
+.button-next {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.button-prev,
+.button-next {
+  border: none;
+  background: none;
+}
+
+.button-prev:active,
+.button-next:active,
+.dot:active {
+  opacity: 0.5;
+}
+
+.dot {
+  background-color: #c7d2d6;
+  width: 84px;
+  height: 12px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.is-active {
+  background: #023e7d;
+  cursor: auto;
+}
+
+.card h1 {
+  position: absolute;
+  left: 180px;
+  top: 200px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card p {
+  position: absolute;
+  left: 180px;
+  top: 265px;
+  color: #fff;
+  width: 1111px;
+  height: 120px;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.card2 {
+  position: relative;
+}
+.card2 h1 {
+  position: absolute;
+  left: 180px;
+  top: 200px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card2 p {
+  position: absolute;
+  left: 180px;
+  top: 265px;
+  color: #fff;
+  width: 1111px;
+  height: 120px;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.card3 {
+  position: relative;
+}
+.card3 h1 {
+  position: absolute;
+  left: 180px;
+  top: 200px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card3 p {
+  position: absolute;
+  left: 180px;
+  top: 265px;
+  color: #fff;
+  width: 1111px;
+  height: 120px;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}/*# sourceMappingURL=style.css.map */

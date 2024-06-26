@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  /* display: block; */
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu ul {
+  list-style: none;
+}
+.menu ul li a {
+  color: #003566;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.help {
+  display: flex;
+  padding-left: 10px;
+}

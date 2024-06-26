@@ -1,0 +1,20 @@
+.cards {
+  width: 1518px;
+  background-color: rgb(129, 81, 81);
+  .card {
+    display: flex;
+    justify-content: space-around;
+
+    text-align: center;
+    .card-text-h1 {
+      cursor: pointer;
+    }
+    .card-text-p {
+      margin-top: 13px;
+    }
+  }
+}
+
+.hide {
+  opacity: 0;
+}
